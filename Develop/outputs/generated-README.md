@@ -23,9 +23,8 @@
   ## [Usage](#table-of-contents)
 
   To use this application, open VS Code, open the terminal, change your directory to "Develop," enter the command "node index.js" and answer the prompts.
-
-  The following video is a demonstration on using this application: [video](https://drive.google.com/file/d/1uW6E1n5qyIglPQ5PBNxqYlur_CRhgJ5e/view)
   
+   
 
   ## [Contributing](#table-of-contents)
   

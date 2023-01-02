@@ -1,7 +1,7 @@
 // packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('Develop/utilities/generateMarkdown.js');
 const fs = require('fs');
+const generateMarkdown = require('/Users/colint771/bootcamp/README_Generator/Develop/generateMarkdown.js');
 
 // Array of questions for user input
 const questions = [
@@ -47,7 +47,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Provide a description for your project, including what it is, why it is needed, and how it works (Required)',
         validate: descriptionInput => {
             if(descriptionInput) {
@@ -121,7 +121,7 @@ const questions = [
 // function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFIle('./outputs/generated-README.md', fileContent, err => {
+        fs.writeFile('/Users/colint771/bootcamp/README_Generator/Develop/outputs/generated-README.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;
@@ -150,7 +150,7 @@ init()
     return generateMarkdown(readmeData);
 })
 .then(pageMD => {
-    return writeFIle(pageMD);
+    return writeFile(pageMD);
 })
 .then(writeFileResponse => {
     console.log(writeFileResponse.message);
