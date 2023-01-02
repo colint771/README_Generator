@@ -1,14 +1,25 @@
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "inquirer": "8.2.4"
-    }
-  }
+  "name": "inquirer",
+  "version": "8.2.4",
+  "description": "embeddable CLI for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"\"",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/colint771/README_Generator.git"
+  },
+  "keywords": [
+    "\"\""
+  ],
+  "bugs": {
+    "url": "https://github.com/colint771/README_Generator/issues"
+  },
+  "homepage": "https://github.com/colint771/README_Generator#readme"
+}
